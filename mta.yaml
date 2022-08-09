@@ -37,6 +37,8 @@ modules:
 resources:
   - name: MyHANAApp-db
     type: com.sap.xs.hdi-container
+    properties:
+     TARGET_CONTAINER: MyHANAApp
     parameters:
       service: hana
       service-plan: hdi-shared
